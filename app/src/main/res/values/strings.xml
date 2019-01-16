@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Get/Share Social info</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="facebook_app_id">1821504681400004</string>
+    <string name="description">Press Social Media icon of users to copy the name and Long press to go to the desired social site. We offer 14 Social media sites!! </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

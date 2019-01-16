@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        float:fletPadding="10dp"
+        android:id="@+id/search"
+        float:fletTextAppearance="@style/floatlabelededittext">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search....."
+            android:textColorHint="#f0f0f0"
+            android:textColor="#f0f0f0"
+            android:id="@+id/edtSearch" />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="135dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:layout_above="@+id/random" />
+    <!--</FrameLayout>-->
+</LinearLayout>
+
